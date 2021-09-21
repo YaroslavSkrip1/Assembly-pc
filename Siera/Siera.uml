@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_LTugQJYpEeuzkNY6l90EhQ" name="Siera">
+    <eAnnotations xmi:id="_MuRLoJYpEeuzkNY6l90EhQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_Munw8JYpEeuzkNY6l90EhQ" source="codegen">
+        <details xmi:id="_Munw8ZYpEeuzkNY6l90EhQ" key="codegenDirectory" value="/Siera/src"/>
+        <details xmi:id="_PZgp4JYpEeuzkNY6l90EhQ" key="AssociatedSourceCode" value="/Siera/src/Main.java;663423599/1;/Siera/src/accessories/Accessories.java;1739681998/1;/Siera/src/accessories/Memory.java;1229495847/1;/Siera/src/accessories/Motherboard.java;778348612/1;/Siera/src/accessories/Processor.java;2468916525/1;/Siera/src/accessories/VideoCard.java;126753578/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_NsOBoJYpEeuzkNY6l90EhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_NsOBoZYpEeuzkNY6l90EhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_NsOosJYpEeuzkNY6l90EhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_NsOosZYpEeuzkNY6l90EhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_NsPPwJYpEeuzkNY6l90EhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_NsP20JYpEeuzkNY6l90EhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_NsQd4JYpEeuzkNY6l90EhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_NsRE8JYpEeuzkNY6l90EhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_NsSTEJYpEeuzkNY6l90EhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_NrOjIJYpEeuzkNY6l90EhQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_NrQYUJYpEeuzkNY6l90EhQ" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_OFT3EJYpEeuzkNY6l90EhQ" name="DataInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OFZ9sJYpEeuzkNY6l90EhQ" name="DataOutputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OFby4JYpEeuzkNY6l90EhQ" name="FileInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OFfdQJYpEeuzkNY6l90EhQ" name="FileOutputStream"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_NrRmcJYpEeuzkNY6l90EhQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_OFh5gJYpEeuzkNY6l90EhQ" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OFmyAZYpEeuzkNY6l90EhQ" name="Arrays"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OFp1UJYpEeuzkNY6l90EhQ" name="HashSet"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OGEFAJYpEeuzkNY6l90EhQ" name="InputMismatchException"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_OGQ5UJYpEeuzkNY6l90EhQ" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OGTVkJYpEeuzkNY6l90EhQ" name="Scanner"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_OGXnAZYpEeuzkNY6l90EhQ" name="Set"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_OH4p8JYpEeuzkNY6l90EhQ" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_OH5RAJYpEeuzkNY6l90EhQ" name="Exception"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_OJP74JYpEeuzkNY6l90EhQ" name="Double"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_NrfB0JYpEeuzkNY6l90EhQ" name="accessories">
+      <packagedElement xmi:type="uml:Class" xmi:id="_NuoccJYpEeuzkNY6l90EhQ" name="Accessories">
+        <ownedAttribute xmi:id="_OKpqEJYpEeuzkNY6l90EhQ" name="brand" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OKstYJYpEeuzkNY6l90EhQ" name="model" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OLcUQZYpEeuzkNY6l90EhQ" name="price" visibility="protected" type="_OJP74JYpEeuzkNY6l90EhQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ONI9YJYpEeuzkNY6l90EhQ" name="getBrand" specification="_NurfwJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_ONI9YZYpEeuzkNY6l90EhQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return brand;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ONMAsJYpEeuzkNY6l90EhQ" name="setBrand" specification="_NusG0ZYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_ONMAsZYpEeuzkNY6l90EhQ" name="brand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.brand = brand;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OOBHIJYpEeuzkNY6l90EhQ" name="getModel" specification="_NutU8JYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_OOBHIZYpEeuzkNY6l90EhQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return model;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OOBHIpYpEeuzkNY6l90EhQ" name="setModel" specification="_NuvKIJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_OOBHI5YpEeuzkNY6l90EhQ" name="model">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.model = model;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OOBuMJYpEeuzkNY6l90EhQ" name="getPrice" specification="_Nuw_UJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_OOBuMZYpEeuzkNY6l90EhQ" type="_OJP74JYpEeuzkNY6l90EhQ" direction="return"/>
+          <language>java</language>
+          <body>return price;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OOCVQJYpEeuzkNY6l90EhQ" name="setPrice" specification="_OJbiEJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_OOCVQZYpEeuzkNY6l90EhQ" name="price" type="_OJP74JYpEeuzkNY6l90EhQ"/>
+          <language>java</language>
+          <body>this.price = price;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_NurfwJYpEeuzkNY6l90EhQ" name="getBrand" method="_ONI9YJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_NusG0JYpEeuzkNY6l90EhQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_NusG0ZYpEeuzkNY6l90EhQ" name="setBrand" method="_ONMAsJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_Nust4JYpEeuzkNY6l90EhQ" name="brand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_NutU8JYpEeuzkNY6l90EhQ" name="getModel" method="_OOBHIJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_Nut8AJYpEeuzkNY6l90EhQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_NuvKIJYpEeuzkNY6l90EhQ" name="setModel" method="_OOBHIpYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_NuwYQJYpEeuzkNY6l90EhQ" name="model">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Nuw_UJYpEeuzkNY6l90EhQ" name="getPrice" method="_OOBuMJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_OJaT8JYpEeuzkNY6l90EhQ" type="_OJP74JYpEeuzkNY6l90EhQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OJbiEJYpEeuzkNY6l90EhQ" name="setPrice" method="_OOCVQJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_OJbiEZYpEeuzkNY6l90EhQ" name="price" type="_OJP74JYpEeuzkNY6l90EhQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Nu4UEJYpEeuzkNY6l90EhQ" name="Memory">
+        <generalization xmi:id="_OG7nsJYpEeuzkNY6l90EhQ" general="_NuoccJYpEeuzkNY6l90EhQ"/>
+        <ownedAttribute xmi:id="_OLewgJYpEeuzkNY6l90EhQ" name="memory">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OLf-oJYpEeuzkNY6l90EhQ" name="frequency">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OOC8UJYpEeuzkNY6l90EhQ" name="Memory" specification="_OJelYJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_OOJC8JYpEeuzkNY6l90EhQ" name="brand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOJC8ZYpEeuzkNY6l90EhQ" name="model">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOJC8pYpEeuzkNY6l90EhQ" name="memory">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOJC85YpEeuzkNY6l90EhQ" name="frequency">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOJC9JYpEeuzkNY6l90EhQ" name="price" type="_OJP74JYpEeuzkNY6l90EhQ"/>
+          <ownedParameter xmi:id="_OOJC9ZYpEeuzkNY6l90EhQ" type="_Nu4UEJYpEeuzkNY6l90EhQ" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+		this.brand = brand;&#xD;
+		this.model = model;&#xD;
+		this.memory = memory;&#xD;
+		this.frequency = frequency;&#xD;
+		this.price = price;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OOMGQJYpEeuzkNY6l90EhQ" name="toString" specification="_Nu8lgJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_OOMGQZYpEeuzkNY6l90EhQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Memory [brand=&quot; + brand + &quot;, model=&quot; + model + &quot;, memory=&quot; + memory + &quot;, frequency=&quot; + frequency&#xD;
+				+ &quot;, price=&quot; + price + &quot;]&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Nu8lgJYpEeuzkNY6l90EhQ" name="toString" method="_OOMGQJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_Nu-asJYpEeuzkNY6l90EhQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OJelYJYpEeuzkNY6l90EhQ" name="Memory" method="_OOC8UJYpEeuzkNY6l90EhQ">
+          <eAnnotations xmi:id="_OJhBoJYpEeuzkNY6l90EhQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_OJhBoZYpEeuzkNY6l90EhQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_OJelYZYpEeuzkNY6l90EhQ" name="brand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OJfMcJYpEeuzkNY6l90EhQ" name="model">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OJfMcZYpEeuzkNY6l90EhQ" name="memory">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OJfzgJYpEeuzkNY6l90EhQ" name="frequency">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OJgakJYpEeuzkNY6l90EhQ" name="price" type="_OJP74JYpEeuzkNY6l90EhQ"/>
+          <ownedParameter xmi:id="_OJhosJYpEeuzkNY6l90EhQ" type="_Nu4UEJYpEeuzkNY6l90EhQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_NvG9kJYpEeuzkNY6l90EhQ" name="Motherboard">
+        <generalization xmi:id="_OHC8cJYpEeuzkNY6l90EhQ" general="_NuoccJYpEeuzkNY6l90EhQ"/>
+        <ownedAttribute xmi:id="_OLhMwJYpEeuzkNY6l90EhQ" name="socket">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OLia4JYpEeuzkNY6l90EhQ" name="memory">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OLjB8JYpEeuzkNY6l90EhQ" name="manyMemory">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OOPJkJYpEeuzkNY6l90EhQ" name="Motherboard" specification="_OJtO4JYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_OOPJkZYpEeuzkNY6l90EhQ" name="brand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOPJkpYpEeuzkNY6l90EhQ" name="model">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOPJk5YpEeuzkNY6l90EhQ" name="socket">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOPJlJYpEeuzkNY6l90EhQ" name="memory">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOPJlZYpEeuzkNY6l90EhQ" name="manyMemory">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOPJlpYpEeuzkNY6l90EhQ" name="price" type="_OJP74JYpEeuzkNY6l90EhQ"/>
+          <ownedParameter xmi:id="_OOPJl5YpEeuzkNY6l90EhQ" type="_NvG9kJYpEeuzkNY6l90EhQ" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+		this.brand = brand;&#xD;
+		this.model = model;&#xD;
+		this.socket = socket;&#xD;
+		this.memory = memory;&#xD;
+		this.manyMemory = manyMemory;&#xD;
+		this.price = price;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OOQXsJYpEeuzkNY6l90EhQ" name="toString" specification="_NvqXMJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_OOQXsZYpEeuzkNY6l90EhQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Motherboard [brand=&quot; + brand + &quot;, model=&quot; + model + &quot;, socket=&quot; + socket + &quot;, memory=&quot; + memory&#xD;
+				+ &quot;, manyMemory=&quot; + manyMemory + &quot;, price=&quot; + price + &quot;]&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_NvqXMJYpEeuzkNY6l90EhQ" name="toString" method="_OOQXsJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_NvuBkJYpEeuzkNY6l90EhQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OJtO4JYpEeuzkNY6l90EhQ" name="Motherboard" method="_OOPJkJYpEeuzkNY6l90EhQ">
+          <eAnnotations xmi:id="_OJ1KsJYpEeuzkNY6l90EhQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_OJ1KsZYpEeuzkNY6l90EhQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_OJtO4ZYpEeuzkNY6l90EhQ" name="brand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OJwSMJYpEeuzkNY6l90EhQ" name="model">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OJwSMZYpEeuzkNY6l90EhQ" name="socket">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OJyucJYpEeuzkNY6l90EhQ" name="memory">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OJzVgJYpEeuzkNY6l90EhQ" name="manyMemory">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OJz8kJYpEeuzkNY6l90EhQ" name="price" type="_OJP74JYpEeuzkNY6l90EhQ"/>
+          <ownedParameter xmi:id="_OJ1KspYpEeuzkNY6l90EhQ" type="_NvG9kJYpEeuzkNY6l90EhQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Nv9SIJYpEeuzkNY6l90EhQ" name="Processor">
+        <generalization xmi:id="_OHOioJYpEeuzkNY6l90EhQ" general="_NuoccJYpEeuzkNY6l90EhQ"/>
+        <ownedAttribute xmi:id="_OLn6cJYpEeuzkNY6l90EhQ" name="socket">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OLpvoJYpEeuzkNY6l90EhQ" name="frequency">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OLqWsJYpEeuzkNY6l90EhQ" name="manyCore">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OLq9wJYpEeuzkNY6l90EhQ" name="cache">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OORl0JYpEeuzkNY6l90EhQ" name="toString" specification="_Nv-gQJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_OORl0ZYpEeuzkNY6l90EhQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Processor [brand=&quot; + brand + &quot;, model=&quot; + model + &quot;, socket=&quot; + socket + &quot;, frequency=&quot; + frequency&#xD;
+				+ &quot;, manyCore=&quot; + manyCore + &quot;, cache=&quot; + cache + &quot;, price=&quot; + price + &quot;]&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OOSM4JYpEeuzkNY6l90EhQ" name="Processor" specification="_OKPaYJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_OOSM4ZYpEeuzkNY6l90EhQ" name="brand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOSM4pYpEeuzkNY6l90EhQ" name="model">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOSM45YpEeuzkNY6l90EhQ" name="socket">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOSM5JYpEeuzkNY6l90EhQ" name="frequency">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOSM5ZYpEeuzkNY6l90EhQ" name="manyCore">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOSM5pYpEeuzkNY6l90EhQ" name="cache">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOSM55YpEeuzkNY6l90EhQ" name="price" type="_OJP74JYpEeuzkNY6l90EhQ"/>
+          <ownedParameter xmi:id="_OOSM6JYpEeuzkNY6l90EhQ" type="_Nv9SIJYpEeuzkNY6l90EhQ" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+		this.brand = brand;&#xD;
+		this.model = model;&#xD;
+		this.socket = socket;&#xD;
+		this.frequency = frequency;&#xD;
+		this.manyCore = manyCore;&#xD;
+		this.cache = cache;&#xD;
+		this.price = price;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Nv-gQJYpEeuzkNY6l90EhQ" name="toString" method="_OORl0JYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_Nv_HUJYpEeuzkNY6l90EhQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OKPaYJYpEeuzkNY6l90EhQ" name="Processor" method="_OOSM4JYpEeuzkNY6l90EhQ">
+          <eAnnotations xmi:id="_OKcOsJYpEeuzkNY6l90EhQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_OKcOsZYpEeuzkNY6l90EhQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_OKQogJYpEeuzkNY6l90EhQ" name="brand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OKRPkJYpEeuzkNY6l90EhQ" name="model">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OKTEwJYpEeuzkNY6l90EhQ" name="socket">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OKTEwZYpEeuzkNY6l90EhQ" name="frequency">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OKbAkJYpEeuzkNY6l90EhQ" name="manyCore">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OKbnoJYpEeuzkNY6l90EhQ" name="cache">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OKbnoZYpEeuzkNY6l90EhQ" name="price" type="_OJP74JYpEeuzkNY6l90EhQ"/>
+          <ownedParameter xmi:id="_OKcOspYpEeuzkNY6l90EhQ" type="_Nv9SIJYpEeuzkNY6l90EhQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_NwdocJYpEeuzkNY6l90EhQ" name="VideoCard">
+        <generalization xmi:id="_OHXFgJYpEeuzkNY6l90EhQ" general="_NuoccJYpEeuzkNY6l90EhQ"/>
+        <ownedAttribute xmi:id="_OLsL4JYpEeuzkNY6l90EhQ" name="frequency">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OLsy8JYpEeuzkNY6l90EhQ" name="memory">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OOSz8JYpEeuzkNY6l90EhQ" name="VideoCard" specification="_OKhHMJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_OOSz8ZYpEeuzkNY6l90EhQ" name="brand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOSz8pYpEeuzkNY6l90EhQ" name="model">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOSz85YpEeuzkNY6l90EhQ" name="frequency">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOSz9JYpEeuzkNY6l90EhQ" name="memory">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OOSz9ZYpEeuzkNY6l90EhQ" name="price" type="_OJP74JYpEeuzkNY6l90EhQ"/>
+          <ownedParameter xmi:id="_OOSz9pYpEeuzkNY6l90EhQ" type="_NwdocJYpEeuzkNY6l90EhQ" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+		this.brand = brand;&#xD;
+		this.model = model;&#xD;
+		this.frequency = frequency;&#xD;
+		this.memory = memory;&#xD;
+		this.price = price;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OOUpIJYpEeuzkNY6l90EhQ" name="toString" specification="_NwgrwJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_OOUpIZYpEeuzkNY6l90EhQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;VideoCard [brand=&quot; + brand + &quot;, model=&quot; + model + &quot;, frequency=&quot; + frequency + &quot;, memory=&quot; + memory&#xD;
+				+ &quot;, price=&quot; + price + &quot;]&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_NwgrwJYpEeuzkNY6l90EhQ" name="toString" method="_OOUpIJYpEeuzkNY6l90EhQ">
+          <ownedParameter xmi:id="_NwhS0JYpEeuzkNY6l90EhQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OKhHMJYpEeuzkNY6l90EhQ" name="VideoCard" method="_OOSz8JYpEeuzkNY6l90EhQ">
+          <eAnnotations xmi:id="_OKiVUJYpEeuzkNY6l90EhQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_OKiVUZYpEeuzkNY6l90EhQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_OKhHMZYpEeuzkNY6l90EhQ" name="brand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OKhuQJYpEeuzkNY6l90EhQ" name="model">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OKhuQZYpEeuzkNY6l90EhQ" name="frequency">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OKhuQpYpEeuzkNY6l90EhQ" name="memory">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_OKhuQ5YpEeuzkNY6l90EhQ" name="price" type="_OJP74JYpEeuzkNY6l90EhQ"/>
+          <ownedParameter xmi:id="_OKiVUpYpEeuzkNY6l90EhQ" type="_NwdocJYpEeuzkNY6l90EhQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Ntt2cJYpEeuzkNY6l90EhQ" name="Main">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OMkVoJYpEeuzkNY6l90EhQ" name="main" specification="_Nt1yQJYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_OMkVoZYpEeuzkNY6l90EhQ" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OMkVopYpEeuzkNY6l90EhQ" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>while (true) {&#xD;
+			System.out.println(&quot;Складаєм системний блок.&quot;);&#xD;
+&#xD;
+			List&lt;Processor> processor = Arrays.asList(addProcessor());&#xD;
+			List&lt;Motherboard> motherboard = Arrays.asList(addMotherboard());&#xD;
+			List&lt;Memory> memory = Arrays.asList(addMemory());&#xD;
+			List&lt;VideoCard> videoCard = Arrays.asList(addVideoCard());&#xD;
+&#xD;
+			Processor processorM = processor(processor);&#xD;
+			Motherboard motherboardM = motherboard(motherboard, processorM);&#xD;
+			List&lt;Memory> memoryM = memory(memory, motherboardM);&#xD;
+			VideoCard videoCardM = videoCard(videoCard);&#xD;
+&#xD;
+			sum(processorM, motherboardM, memoryM, videoCardM);&#xD;
+&#xD;
+			System.out.println(&quot;Повторити? &lt;&lt;&lt;0.Ні>>>&quot;);&#xD;
+			Scanner scanner = new Scanner(System.in);&#xD;
+			if (&quot;0&quot;.equals(scanner.nextLine()))&#xD;
+				break;&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OMv70JYpEeuzkNY6l90EhQ" name="addProcessor" specification="_Nt6qwJYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_OMv70ZYpEeuzkNY6l90EhQ" type="_Nv9SIJYpEeuzkNY6l90EhQ" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OMv70pYpEeuzkNY6l90EhQ" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Processor[] processor = { new Processor(&quot;AMD&quot;, &quot;Bristol Ridge A6 2C/2T 9400&quot;, &quot;AM4&quot;, 3500, 4, 2, 61.05),&#xD;
+				new Processor(&quot;AMD&quot;, &quot;FX-Series X4 4350&quot;, &quot;AM3&quot;, 4200, 4, 12, 56.06),&#xD;
+				new Processor(&quot;AMD&quot;, &quot;FX-Series X8 8320&quot;, &quot;AM3&quot;, 3500, 8, 16, 66.00),&#xD;
+				new Processor(&quot;Intel&quot;, &quot;Core i5-9400&quot;, &quot;s1151&quot;, 2900, 6, 9, 226.50),&#xD;
+				new Processor(&quot;Intel&quot;, &quot;Core i3-10100F&quot;, &quot;s1200&quot;, 3600, 4, 6, 128.76),&#xD;
+				new Processor(&quot;Intel&quot;, &quot;Core i5-9600К&quot;, &quot;s1151&quot;, 3700, 6, 9, 291.00) };&#xD;
+//		try(DataOutputStream dataOutputStream = new DataOutputStream(new FileOutputStream(&quot;processor.txt&quot;))){&#xD;
+//			for (int i=0;i&lt;processor.length;i++) {&#xD;
+//		dataOutputStream.writeUTF(processor[i].getBrand());	&#xD;
+//		dataOutputStream.writeUTF(processor[i].getModel());&#xD;
+//		dataOutputStream.writeUTF(processor[i].getSocket());&#xD;
+//		dataOutputStream.writeInt(processor[i].getFrequency());&#xD;
+//		dataOutputStream.writeInt(processor[i].getManyCore());&#xD;
+//		dataOutputStream.writeInt(processor[i].getCache());&#xD;
+//		dataOutputStream.writeDouble(processor[i].getPrice());&#xD;
+//			}&#xD;
+//		}&#xD;
+		&#xD;
+		try(DataInputStream dataInputStream = new DataInputStream(new FileInputStream(&quot;processor.txt&quot;))){&#xD;
+			List &lt;Processor> procc;&#xD;
+			Processor proc=new Processor(dataInputStream.readUTF(),dataInputStream.readUTF(),dataInputStream.readUTF(),dataInputStream.readInt(),dataInputStream.readInt(),dataInputStream.readInt(),dataInputStream.readDouble());&#xD;
+//			proc.setBrand(dataInputStream.readUTF());&#xD;
+//			proc.setModel(dataInputStream.readUTF());&#xD;
+//			proc.setSocket(dataInputStream.readUTF());&#xD;
+//			proc.setFrequency(dataInputStream.readInt());&#xD;
+//			proc.setManyCore(dataInputStream.readInt());&#xD;
+//			proc.setCache(dataInputStream.readInt());&#xD;
+//			proc.setPrice(dataInputStream.readDouble());&#xD;
+//		processor.add(proc);	&#xD;
+			&#xD;
+		}&#xD;
+		&#xD;
+//		Processor[] processor= new Processor() ;&#xD;
+		return processor;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OMv705YpEeuzkNY6l90EhQ" name="addMotherboard" specification="_NuHfEJYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_OMv71JYpEeuzkNY6l90EhQ" type="_NvG9kJYpEeuzkNY6l90EhQ" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OMv71ZYpEeuzkNY6l90EhQ" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Motherboard[] motherboard = { new Motherboard(&quot;Asus&quot;, &quot;PRIME H410M-E&quot;, &quot;s1200&quot;, &quot;DDR4&quot;, 2, 84.36),&#xD;
+				new Motherboard(&quot;Asus&quot;, &quot;PRIME B360M-C&quot;, &quot;s1151&quot;, &quot;DDR4&quot;, 4, 113.40),&#xD;
+				new Motherboard(&quot;GigaByte&quot;, &quot;H310M A 2.0&quot;, &quot;s1151&quot;, &quot;DDR4&quot;, 2, 78.50),&#xD;
+				new Motherboard(&quot;Asus&quot;, &quot;M5A78L-M LX3&quot;, &quot;AM3&quot;, &quot;DDR3&quot;, 2, 59.62),&#xD;
+				new Motherboard(&quot;ASRock&quot;, &quot;H470M-ITX/AC&quot;, &quot;s1200&quot;, &quot;DDR4&quot;, 4, 160.26),&#xD;
+				new Motherboard(&quot;AsRock&quot;, &quot;B450 PRO4&quot;, &quot;AM4&quot;, &quot;DDR4&quot;, 4, 98.49) };&#xD;
+		return motherboard;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ONCPsJYpEeuzkNY6l90EhQ" name="addMemory" specification="_NuLwgJYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_ONCPsZYpEeuzkNY6l90EhQ" type="_Nu4UEJYpEeuzkNY6l90EhQ" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ONCPspYpEeuzkNY6l90EhQ" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Memory[] memory = { new Memory(&quot;Goodram&quot;, &quot;DDR3&quot;, 2, 1333, 18.20), new Memory(&quot;AMD&quot;, &quot;DDR3&quot;, 4, 1600, 20.00),&#xD;
+				new Memory(&quot;Goodram&quot;, &quot;DDR3&quot;, 8, 1600, 35.96), new Memory(&quot;Apacer&quot;, &quot;DDR4&quot;, 4, 2666, 21.84),&#xD;
+				new Memory(&quot;Apacer&quot;, &quot;DDR4&quot;, 8, 2400, 54.05), new Memory(&quot;Apacer&quot;, &quot;DDR4&quot;, 16, 2400, 91.87) };&#xD;
+		return memory;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ONC2wJYpEeuzkNY6l90EhQ" name="addVideoCard" specification="_NuOz0JYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_ONC2wZYpEeuzkNY6l90EhQ" type="_NwdocJYpEeuzkNY6l90EhQ" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ONC2wpYpEeuzkNY6l90EhQ" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>VideoCard[] videoCard = { new VideoCard(&quot;GigaByte&quot;, &quot;GeForce GT 730&quot;, 64, 2, 76.31),&#xD;
+				new VideoCard(&quot;Sapphire&quot;, &quot;Radeon RX 550 PULSE&quot;, 128, 4, 107.84) };&#xD;
+		return videoCard;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ONDd0JYpEeuzkNY6l90EhQ" name="processor" specification="_OIJvsJYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_ONDd0ZYpEeuzkNY6l90EhQ" name="processor" type="_OGQ5UJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_ONDd0pYpEeuzkNY6l90EhQ" type="_Nv9SIJYpEeuzkNY6l90EhQ" direction="return"/>
+        <language>java</language>
+        <body>Processor processorM = null;&#xD;
+		Set&lt;String> brand = new HashSet&lt;String>();&#xD;
+		for (int i = 0; i &lt; processor.size(); i++)&#xD;
+			brand.add(processor.get(i).getBrand());&#xD;
+		ArrayList&lt;String> list = new ArrayList&lt;>();&#xD;
+		list.addAll(brand);&#xD;
+		String proc = list.get(0);&#xD;
+		boolean ch = true;&#xD;
+		while (ch) {&#xD;
+			ch = false;&#xD;
+			System.out.println(&quot;На базі якого процесора буде складенно комп’ютер&quot;);&#xD;
+			for (int i = 0; i &lt; list.size(); i++)&#xD;
+				System.out.println((i + 1) + &quot;. &quot; + list.get(i));&#xD;
+&#xD;
+			try {&#xD;
+				Scanner scanner = new Scanner(System.in);&#xD;
+				proc = list.get(scanner.nextInt() - 1);&#xD;
+			} catch (IndexOutOfBoundsException e) {&#xD;
+				System.out.println(&quot;Невірний вибір&quot;);&#xD;
+				ch = true;&#xD;
+			} catch (InputMismatchException e) {&#xD;
+				System.out.println(&quot;Некоректний ввід&quot;);&#xD;
+				ch = true;&#xD;
+			}&#xD;
+&#xD;
+		}&#xD;
+&#xD;
+		List&lt;Processor> processor2 = new ArrayList&lt;>();&#xD;
+&#xD;
+		for (int i = 0; i &lt; processor.size(); i++)&#xD;
+			if (processor.get(i).getBrand().equals(proc))&#xD;
+				processor2.add(processor.get(i));&#xD;
+		ch = true;&#xD;
+		while (ch) {&#xD;
+			ch = false;&#xD;
+			System.out.println(&quot;Оберіть процесор&quot;);&#xD;
+			for (int i = 0; i &lt; processor2.size(); i++)&#xD;
+				System.out.println((i + 1) + &quot;. &quot; + processor2.get(i).toString());&#xD;
+&#xD;
+			try {&#xD;
+				Scanner scanner = new Scanner(System.in);&#xD;
+				processorM = processor2.get(scanner.nextInt() - 1);&#xD;
+			} catch (IndexOutOfBoundsException e) {&#xD;
+				System.out.println(&quot;Невірний вибір&quot;);&#xD;
+				ch = true;&#xD;
+			} catch (InputMismatchException e) {&#xD;
+				System.out.println(&quot;Некоректний ввід&quot;);&#xD;
+				ch = true;&#xD;
+			}&#xD;
+		}&#xD;
+		return processorM;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ONEE4JYpEeuzkNY6l90EhQ" name="motherboard" specification="_OISSkJYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_ONEE4ZYpEeuzkNY6l90EhQ" name="motherboard" type="_OGQ5UJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_ONEE4pYpEeuzkNY6l90EhQ" name="processorM" type="_Nv9SIJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_ONEE45YpEeuzkNY6l90EhQ" type="_NvG9kJYpEeuzkNY6l90EhQ" direction="return"/>
+        <language>java</language>
+        <body>Motherboard motherboardM = null;&#xD;
+		List&lt;Motherboard> motherboard2 = new ArrayList&lt;>();&#xD;
+		for (int i = 0; i &lt; motherboard.size(); i++)&#xD;
+			if (motherboard.get(i).getSocket().equals(processorM.getSocket()))&#xD;
+				motherboard2.add(motherboard.get(i));&#xD;
+		boolean ch = true;&#xD;
+		while (ch) {&#xD;
+			ch = false;&#xD;
+&#xD;
+			System.out.println(&quot;Оберіть материнську плату&quot;);&#xD;
+			for (int i = 0; i &lt; motherboard2.size(); i++)&#xD;
+				System.out.println((i + 1) + &quot;. &quot; + motherboard2.get(i).toString());&#xD;
+			try {&#xD;
+				Scanner scanner = new Scanner(System.in);&#xD;
+				motherboardM = motherboard2.get(scanner.nextInt() - 1);&#xD;
+			} catch (IndexOutOfBoundsException e) {&#xD;
+				System.out.println(&quot;Невірний вибір&quot;);&#xD;
+				ch = true;&#xD;
+			} catch (InputMismatchException e) {&#xD;
+				System.out.println(&quot;Некоректний ввід&quot;);&#xD;
+				ch = true;&#xD;
+			}&#xD;
+		}&#xD;
+		return motherboardM;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ONEE5JYpEeuzkNY6l90EhQ" name="memory" specification="_OIft8JYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_ONEE5ZYpEeuzkNY6l90EhQ" name="memory" type="_OGQ5UJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_ONEE5pYpEeuzkNY6l90EhQ" name="motherboardM" type="_NvG9kJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_ONEE55YpEeuzkNY6l90EhQ" type="_Nu4UEJYpEeuzkNY6l90EhQ" isOrdered="true" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ONEE6JYpEeuzkNY6l90EhQ" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>System.out.println(&quot;Оберіть оперативну пам’ять:&quot;);&#xD;
+		List&lt;Memory> memory2 = new ArrayList&lt;>();&#xD;
+		List&lt;Memory> memoryM = new ArrayList&lt;>();&#xD;
+		for (int i = 0; i &lt; memory.size(); i++)&#xD;
+			if (memory.get(i).getModel().equals(motherboardM.getMemory()))&#xD;
+				memory2.add(memory.get(i));&#xD;
+		boolean ch = true;&#xD;
+		while (ch) {&#xD;
+			ch = false;&#xD;
+			for (int i = 0; i &lt; memory2.size(); i++)&#xD;
+				System.out.println((i + 1) + &quot;. &quot; + memory2.get(i).toString());&#xD;
+&#xD;
+			try {&#xD;
+				Scanner scanner = new Scanner(System.in);&#xD;
+				memoryM.add(memory2.get(scanner.nextInt() - 1));&#xD;
+			} catch (IndexOutOfBoundsException e) {&#xD;
+				System.out.println(&quot;Невірний вибір&quot;);&#xD;
+				ch = true;&#xD;
+			} catch (InputMismatchException e) {&#xD;
+				System.out.println(&quot;Некоректний ввід&quot;);&#xD;
+				ch = true;&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+		Boolean ddr = true;&#xD;
+		while (ddr) {&#xD;
+			ch = true;&#xD;
+			Integer m = 0;&#xD;
+			while (ch) {&#xD;
+				ch = false;&#xD;
+				System.out.println(&quot;Додати ще оперативної пам’яті 1.Так/ 0.Ні: &quot;);&#xD;
+				try {&#xD;
+					Scanner scanner = new Scanner(System.in);&#xD;
+					m = scanner.nextInt();&#xD;
+				} catch (IndexOutOfBoundsException e) {&#xD;
+					System.out.println(&quot;Невірний вибір&quot;);&#xD;
+					ch = true;&#xD;
+				} catch (InputMismatchException e) {&#xD;
+					System.out.println(&quot;Некоректний ввід&quot;);&#xD;
+					ch = true;&#xD;
+				}&#xD;
+			}&#xD;
+			if (m == 1) {&#xD;
+				ch = true;&#xD;
+&#xD;
+				while (ch) {&#xD;
+					ch = false;&#xD;
+					System.out.println(&quot;Оберіть оперативну пам’ять:&quot;);&#xD;
+					for (int i = 0; i &lt; memory2.size(); i++)&#xD;
+						System.out.println((i + 1) + &quot;. &quot; + memory2.get(i).toString());&#xD;
+					try {&#xD;
+						Scanner scanner = new Scanner(System.in);&#xD;
+						memoryM.add(memory2.get(scanner.nextInt() - 1));&#xD;
+					} catch (IndexOutOfBoundsException e) {&#xD;
+						System.out.println(&quot;Невірний вибір&quot;);&#xD;
+						ch = true;&#xD;
+					} catch (InputMismatchException e) {&#xD;
+						System.out.println(&quot;Некоректний ввід&quot;);&#xD;
+						ch = true;&#xD;
+					}&#xD;
+				}&#xD;
+			}&#xD;
+			if (memoryM.size() == motherboardM.getManyMemory() || m == 0)&#xD;
+				ddr = false;&#xD;
+		}&#xD;
+		return memoryM;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ONEr8JYpEeuzkNY6l90EhQ" name="videoCard" specification="_OIlNgJYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_ONEr8ZYpEeuzkNY6l90EhQ" name="videoCard" type="_OGQ5UJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_ONEr8pYpEeuzkNY6l90EhQ" type="_NwdocJYpEeuzkNY6l90EhQ" direction="return"/>
+        <language>java</language>
+        <body>VideoCard videoCardM = null;&#xD;
+		boolean ch = true;&#xD;
+		while (ch) {&#xD;
+			ch = false;&#xD;
+			System.out.println(&quot;Виберіть відеокарту:&quot;);&#xD;
+			for (int i = 0; i &lt; videoCard.size(); i++)&#xD;
+				System.out.println((i + 1) + &quot;. &quot; + videoCard.get(i).toString());&#xD;
+			try {&#xD;
+				Scanner scanner = new Scanner(System.in);&#xD;
+				videoCardM = videoCard.get(scanner.nextInt() - 1);&#xD;
+			} catch (IndexOutOfBoundsException e) {&#xD;
+				System.out.println(&quot;Невірний вибір&quot;);&#xD;
+				ch = true;&#xD;
+			} catch (InputMismatchException e) {&#xD;
+				System.out.println(&quot;Некоректний ввід&quot;);&#xD;
+				ch = true;&#xD;
+			}&#xD;
+&#xD;
+		}&#xD;
+		return videoCardM;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ONF6EJYpEeuzkNY6l90EhQ" name="sum" specification="_OIrUIJYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_ONF6EZYpEeuzkNY6l90EhQ" name="processorM" type="_Nv9SIJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_ONF6EpYpEeuzkNY6l90EhQ" name="motherboardM" type="_NvG9kJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_ONF6E5YpEeuzkNY6l90EhQ" name="memoryM" type="_OGQ5UJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_ONF6FJYpEeuzkNY6l90EhQ" name="videoCardM" type="_NwdocJYpEeuzkNY6l90EhQ"/>
+        <language>java</language>
+        <body>Double sum = 0.0;&#xD;
+		System.out.println(&quot;Ви склали комп’ютер:&quot;);&#xD;
+		System.out.println(processorM + &quot;\n&quot; + motherboardM);&#xD;
+		sum = sum + processorM.getPrice() + motherboardM.getPrice();&#xD;
+		for (int i = 0; i &lt; memoryM.size(); i++) {&#xD;
+			System.out.println(memoryM.get(i));&#xD;
+			sum = sum + memoryM.get(i).getPrice();&#xD;
+		}&#xD;
+		System.out.println(videoCardM);&#xD;
+		sum = sum + videoCardM.getPrice();&#xD;
+		System.out.println(&quot;Загальна вартість: &quot; + sum + &quot;$&quot;);&#xD;
+&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_Nt1yQJYpEeuzkNY6l90EhQ" name="main" isStatic="true" method="_OMkVoJYpEeuzkNY6l90EhQ" raisedException="_OH5RAJYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_Nt2ZUJYpEeuzkNY6l90EhQ" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Nt41kJYpEeuzkNY6l90EhQ" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Nt6qwJYpEeuzkNY6l90EhQ" name="addProcessor" isStatic="true" method="_OMv70JYpEeuzkNY6l90EhQ" raisedException="_OH5RAJYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_Nt744JYpEeuzkNY6l90EhQ" type="_Nv9SIJYpEeuzkNY6l90EhQ" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Nt744ZYpEeuzkNY6l90EhQ" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_NuHfEJYpEeuzkNY6l90EhQ" name="addMotherboard" isStatic="true" method="_OMv705YpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_NuJUQJYpEeuzkNY6l90EhQ" type="_NvG9kJYpEeuzkNY6l90EhQ" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NuJ7UJYpEeuzkNY6l90EhQ" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_NuLwgJYpEeuzkNY6l90EhQ" name="addMemory" isStatic="true" method="_ONCPsJYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_NuMXkJYpEeuzkNY6l90EhQ" type="_Nu4UEJYpEeuzkNY6l90EhQ" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NuM-oJYpEeuzkNY6l90EhQ" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_NuOz0JYpEeuzkNY6l90EhQ" name="addVideoCard" isStatic="true" method="_ONC2wJYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_NuOz0ZYpEeuzkNY6l90EhQ" type="_NwdocJYpEeuzkNY6l90EhQ" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NuPa4JYpEeuzkNY6l90EhQ" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_OIJvsJYpEeuzkNY6l90EhQ" name="processor" isStatic="true" method="_ONDd0JYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_OIJvsZYpEeuzkNY6l90EhQ" name="processor" type="_OGQ5UJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_OIKWwJYpEeuzkNY6l90EhQ" type="_Nv9SIJYpEeuzkNY6l90EhQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_OISSkJYpEeuzkNY6l90EhQ" name="motherboard" isStatic="true" method="_ONEE4JYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_OISSkZYpEeuzkNY6l90EhQ" name="motherboard" type="_OGQ5UJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_OISSkpYpEeuzkNY6l90EhQ" name="processorM" type="_Nv9SIJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_OITgsJYpEeuzkNY6l90EhQ" type="_NvG9kJYpEeuzkNY6l90EhQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_OIft8JYpEeuzkNY6l90EhQ" name="memory" isStatic="true" method="_ONEE5JYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_OIft8ZYpEeuzkNY6l90EhQ" name="memory" type="_OGQ5UJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_OIhjIJYpEeuzkNY6l90EhQ" name="motherboardM" type="_NvG9kJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_OIhjIZYpEeuzkNY6l90EhQ" type="_Nu4UEJYpEeuzkNY6l90EhQ" isOrdered="true" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OIiKMJYpEeuzkNY6l90EhQ" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_OIlNgJYpEeuzkNY6l90EhQ" name="videoCard" isStatic="true" method="_ONEr8JYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_OIlNgZYpEeuzkNY6l90EhQ" name="videoCard" type="_OGQ5UJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_OImboJYpEeuzkNY6l90EhQ" type="_NwdocJYpEeuzkNY6l90EhQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_OIrUIJYpEeuzkNY6l90EhQ" name="sum" isStatic="true" method="_ONF6EJYpEeuzkNY6l90EhQ">
+        <ownedParameter xmi:id="_OJGx8JYpEeuzkNY6l90EhQ" name="processorM" type="_Nv9SIJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_OJHZAJYpEeuzkNY6l90EhQ" name="motherboardM" type="_NvG9kJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_OJHZAZYpEeuzkNY6l90EhQ" name="memoryM" type="_OGQ5UJYpEeuzkNY6l90EhQ"/>
+        <ownedParameter xmi:id="_OJIAEJYpEeuzkNY6l90EhQ" name="videoCardM" type="_NwdocJYpEeuzkNY6l90EhQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <profileApplication xmi:id="_MuspcJYpEeuzkNY6l90EhQ">
+      <eAnnotations xmi:id="_MuzXIJYpEeuzkNY6l90EhQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_MvWJsJYpEeuzkNY6l90EhQ" base_Package="_LTugQJYpEeuzkNY6l90EhQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Array xmi:id="_Nt8f8JYpEeuzkNY6l90EhQ" base_Element="_Nt6qwJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Array xmi:id="_NuKiYJYpEeuzkNY6l90EhQ" base_Element="_NuHfEJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Array xmi:id="_NuNlsJYpEeuzkNY6l90EhQ" base_Element="_NuLwgJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Array xmi:id="_NuPa4ZYpEeuzkNY6l90EhQ" base_Element="_NuOz0JYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Nu_BwJYpEeuzkNY6l90EhQ" base_Element="_Nu8lgJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_NvA28JYpEeuzkNY6l90EhQ" base_Element="_Nu8lgJYpEeuzkNY6l90EhQ">
+    <annotations xmi:id="_NvA28ZYpEeuzkNY6l90EhQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Nvv2wJYpEeuzkNY6l90EhQ" base_Element="_NvqXMJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_Nv0IMJYpEeuzkNY6l90EhQ" base_Element="_NvqXMJYpEeuzkNY6l90EhQ">
+    <annotations xmi:id="_Nv0IMZYpEeuzkNY6l90EhQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NwAVcJYpEeuzkNY6l90EhQ" base_Element="_Nv-gQJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_NwTQYJYpEeuzkNY6l90EhQ" base_Element="_Nv-gQJYpEeuzkNY6l90EhQ">
+    <annotations xmi:id="_NwTQYZYpEeuzkNY6l90EhQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Nwh54JYpEeuzkNY6l90EhQ" base_Element="_NwgrwJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_Nwig8JYpEeuzkNY6l90EhQ" base_Element="_NwgrwJYpEeuzkNY6l90EhQ">
+    <annotations xmi:id="_Nwig8ZYpEeuzkNY6l90EhQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_OFWTUJYpEeuzkNY6l90EhQ" base_Element="_OFT3EJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Reference xmi:id="_OFbL0JYpEeuzkNY6l90EhQ" base_Element="_OFZ9sJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Reference xmi:id="_OFe2MJYpEeuzkNY6l90EhQ" base_Element="_OFby4JYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Reference xmi:id="_OFhScJYpEeuzkNY6l90EhQ" base_Element="_OFfdQJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Reference xmi:id="_OFmyAJYpEeuzkNY6l90EhQ" base_Element="_OFh5gJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Reference xmi:id="_OFpOQJYpEeuzkNY6l90EhQ" base_Element="_OFmyAZYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Reference xmi:id="_OGAaoJYpEeuzkNY6l90EhQ" base_Element="_OFp1UJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Reference xmi:id="_OGQSQJYpEeuzkNY6l90EhQ" base_Element="_OGEFAJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Reference xmi:id="_OGSugJYpEeuzkNY6l90EhQ" base_Element="_OGQ5UJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Reference xmi:id="_OGXnAJYpEeuzkNY6l90EhQ" base_Element="_OGTVkJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Reference xmi:id="_OGZcMJYpEeuzkNY6l90EhQ" base_Element="_OGXnAZYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Reference xmi:id="_OIDCAJYpEeuzkNY6l90EhQ" base_Element="_OH5RAJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Generics xmi:id="_OIREcJYpEeuzkNY6l90EhQ" genericsValue="Processor" base_Element="_OIJvsZYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Generics xmi:id="_OIef0JYpEeuzkNY6l90EhQ" genericsValue="Motherboard" base_Element="_OISSkZYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Generics xmi:id="_OIkmcJYpEeuzkNY6l90EhQ" genericsValue="Memory" base_Element="_OIft8ZYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Generics xmi:id="_OIpe8JYpEeuzkNY6l90EhQ" genericsValue="VideoCard" base_Element="_OIlNgZYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Generics xmi:id="_OJLDYJYpEeuzkNY6l90EhQ" genericsValue="Memory" base_Element="_OJHZAZYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:Reference xmi:id="_OJUNUJYpEeuzkNY6l90EhQ" base_Element="_OJP74JYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OKsGUJYpEeuzkNY6l90EhQ" base_Element="_OKpqEJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OLcUQJYpEeuzkNY6l90EhQ" base_Element="_OKstYJYpEeuzkNY6l90EhQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OLeJcJYpEeuzkNY6l90EhQ" base_Element="_OLcUQZYpEeuzkNY6l90EhQ"/>
+</xmi:XMI>

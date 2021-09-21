@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_Lee-wJYpEeuzkNY6l90EhQ">
+  <modelElement href="Siera.uml#_LTugQJYpEeuzkNY6l90EhQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_dfjXgJYpEeuzkNY6l90EhQ" sourceAnchor="312.0,0.0" targetAnchor="113.0,218.0" superClass="_dfa0oJYpEeuzkNY6l90EhQ" subClass="_dfnB4JYpEeuzkNY6l90EhQ">
+    <modelElement href="Siera.uml#_OG7nsJYpEeuzkNY6l90EhQ"/>
+    <bendpoints xmi:id="_TtdswJa1EeuCL8GbjrYwcg" sourceY="-25" targetX="471" targetY="25"/>
+    <bendpoints xmi:id="_TtdswZa1EeuCL8GbjrYwcg" sourceX="-471" sourceY="-25" targetY="25"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_dfuWoJYpEeuzkNY6l90EhQ" sourceAnchor="53.0,0.0" targetAnchor="113.0,218.0" superClass="_dfa0oJYpEeuzkNY6l90EhQ" subClass="_dfyoEJYpEeuzkNY6l90EhQ">
+    <modelElement href="Siera.uml#_OHC8cJYpEeuzkNY6l90EhQ"/>
+    <bendpoints xmi:id="_TtbQgJa1EeuCL8GbjrYwcg" sourceY="-229" targetX="99" targetY="25"/>
+    <bendpoints xmi:id="_Ttb3kJa1EeuCL8GbjrYwcg" sourceX="-99" sourceY="-229" targetY="25"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_df7yAJYpEeuzkNY6l90EhQ" sourceAnchor="27.0,0.0" targetAnchor="113.0,218.0" superClass="_dfa0oJYpEeuzkNY6l90EhQ" subClass="_dgCfsJYpEeuzkNY6l90EhQ">
+    <modelElement href="Siera.uml#_OHOioJYpEeuzkNY6l90EhQ"/>
+    <bendpoints xmi:id="_TtdFsJa1EeuCL8GbjrYwcg" sourceY="-462" targetX="31" targetY="25"/>
+    <bendpoints xmi:id="_TtdFsZa1EeuCL8GbjrYwcg" sourceX="-31" sourceY="-462" targetY="25"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_dgLpoJYpEeuzkNY6l90EhQ" sourceAnchor="0.0,61.0" targetAnchor="113.0,218.0" superClass="_dfa0oJYpEeuzkNY6l90EhQ" subClass="_dgQiIJYpEeuzkNY6l90EhQ">
+    <modelElement href="Siera.uml#_OHXFgJYpEeuzkNY6l90EhQ"/>
+    <bendpoints xmi:id="_TteT0Ja1EeuCL8GbjrYwcg" sourceX="-245" targetX="-128" targetY="746"/>
+    <bendpoints xmi:id="_TteT0Za1EeuCL8GbjrYwcg" sourceX="-245" sourceY="-721" targetX="-128" targetY="25"/>
+    <bendpoints xmi:id="_TteT0pa1EeuCL8GbjrYwcg" sourceX="-117" sourceY="-721" targetY="25"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dfyoEJYpEeuzkNY6l90EhQ" name="Motherboard" generalizations="_dfuWoJYpEeuzkNY6l90EhQ">
+    <modelElement href="Siera.uml#_NvG9kJYpEeuzkNY6l90EhQ"/>
+    <visualProperties xmi:id="_dfyoEZYpEeuzkNY6l90EhQ" position="225.0,279.0" size="724.0,142.0"/>
+    <visibility xmi:id="_dfyoEpYpEeuzkNY6l90EhQ" label="+"/>
+    <attributes xmi:id="_dfyoE5YpEeuzkNY6l90EhQ" name="socket">
+      <modelElement href="Siera.uml#_OLhMwJYpEeuzkNY6l90EhQ"/>
+      <visibility xmi:id="_dfyoFJYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dfyoFZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_dfyoFpYpEeuzkNY6l90EhQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dfyoF5YpEeuzkNY6l90EhQ" name="memory">
+      <modelElement href="Siera.uml#_OLia4JYpEeuzkNY6l90EhQ"/>
+      <visibility xmi:id="_dfyoGJYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dfyoGZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_dfyoGpYpEeuzkNY6l90EhQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dfyoG5YpEeuzkNY6l90EhQ" name="manyMemory">
+      <modelElement href="Siera.uml#_OLjB8JYpEeuzkNY6l90EhQ"/>
+      <visibility xmi:id="_dfyoHJYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dfyoHZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_dfyoHpYpEeuzkNY6l90EhQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dfyoH5YpEeuzkNY6l90EhQ" name="toString">
+      <modelElement href="Siera.uml#_NvqXMJYpEeuzkNY6l90EhQ"/>
+      <stereotypes xmi:id="_dfyoIJYpEeuzkNY6l90EhQ" name="LegacyStyledElement">
+        <modelElement href="Siera.uml#_Nvv2wJYpEeuzkNY6l90EhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dfzPIJYpEeuzkNY6l90EhQ" name="Annotations">
+        <modelElement href="Siera.uml#_Nv0IMJYpEeuzkNY6l90EhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_dfzPIZYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dfzPIpYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dfzPI5YpEeuzkNY6l90EhQ">
+        <modelElement href="Siera.uml#_NvuBkJYpEeuzkNY6l90EhQ"/>
+        <type xmi:id="_dfzPJJYpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dfzPJZYpEeuzkNY6l90EhQ" name="Motherboard">
+      <modelElement href="Siera.uml#_OJtO4JYpEeuzkNY6l90EhQ"/>
+      <keywords xmi:id="_dfzPJpYpEeuzkNY6l90EhQ" keyword="create"/>
+      <visibility xmi:id="_dfzPJ5YpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dfzPKJYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dfzPKZYpEeuzkNY6l90EhQ">
+        <modelElement href="Siera.uml#_OJ1KspYpEeuzkNY6l90EhQ"/>
+        <type xmi:id="_dfzPKpYpEeuzkNY6l90EhQ" name="Motherboard">
+          <modelElement href="Siera.uml#_NvG9kJYpEeuzkNY6l90EhQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dfzPK5YpEeuzkNY6l90EhQ" name="brand">
+        <modelElement href="Siera.uml#_OJtO4ZYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dfzPLJYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dfzPLZYpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dfzPLpYpEeuzkNY6l90EhQ" name="model">
+        <modelElement href="Siera.uml#_OJwSMJYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dfzPL5YpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dfzPMJYpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dfzPMZYpEeuzkNY6l90EhQ" name="socket">
+        <modelElement href="Siera.uml#_OJwSMZYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dfzPMpYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dfzPM5YpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dfzPNJYpEeuzkNY6l90EhQ" name="memory">
+        <modelElement href="Siera.uml#_OJyucJYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dfzPNZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dfzPNpYpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dfzPN5YpEeuzkNY6l90EhQ" name="manyMemory">
+        <modelElement href="Siera.uml#_OJzVgJYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dfzPOJYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dfzPOZYpEeuzkNY6l90EhQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dfzPOpYpEeuzkNY6l90EhQ" name="price">
+        <modelElement href="Siera.uml#_OJz8kJYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dfzPO5YpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dfzPPJYpEeuzkNY6l90EhQ" name="Double">
+          <modelElement href="Siera.uml#_OJP74JYpEeuzkNY6l90EhQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dgQiIJYpEeuzkNY6l90EhQ" name="VideoCard" generalizations="_dgLpoJYpEeuzkNY6l90EhQ">
+    <modelElement href="Siera.uml#_NwdocJYpEeuzkNY6l90EhQ"/>
+    <visualProperties xmi:id="_dgQiIZYpEeuzkNY6l90EhQ" position="296.0,710.0" size="595.0,123.0"/>
+    <visibility xmi:id="_dgQiIpYpEeuzkNY6l90EhQ" label="+"/>
+    <attributes xmi:id="_dgQiI5YpEeuzkNY6l90EhQ" name="frequency">
+      <modelElement href="Siera.uml#_OLsL4JYpEeuzkNY6l90EhQ"/>
+      <visibility xmi:id="_dgQiJJYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dgQiJZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_dgQiJpYpEeuzkNY6l90EhQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dgQiJ5YpEeuzkNY6l90EhQ" name="memory">
+      <modelElement href="Siera.uml#_OLsy8JYpEeuzkNY6l90EhQ"/>
+      <visibility xmi:id="_dgQiKJYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dgQiKZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_dgQiKpYpEeuzkNY6l90EhQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dgQiK5YpEeuzkNY6l90EhQ" name="toString">
+      <modelElement href="Siera.uml#_NwgrwJYpEeuzkNY6l90EhQ"/>
+      <stereotypes xmi:id="_dgQiLJYpEeuzkNY6l90EhQ" name="LegacyStyledElement">
+        <modelElement href="Siera.uml#_Nwh54JYpEeuzkNY6l90EhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dgQiLZYpEeuzkNY6l90EhQ" name="Annotations">
+        <modelElement href="Siera.uml#_Nwig8JYpEeuzkNY6l90EhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_dgQiLpYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dgQiL5YpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dgQiMJYpEeuzkNY6l90EhQ">
+        <modelElement href="Siera.uml#_NwhS0JYpEeuzkNY6l90EhQ"/>
+        <type xmi:id="_dgQiMZYpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dgQiMpYpEeuzkNY6l90EhQ" name="VideoCard">
+      <modelElement href="Siera.uml#_OKhHMJYpEeuzkNY6l90EhQ"/>
+      <keywords xmi:id="_dgQiM5YpEeuzkNY6l90EhQ" keyword="create"/>
+      <visibility xmi:id="_dgQiNJYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dgQiNZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dgQiNpYpEeuzkNY6l90EhQ">
+        <modelElement href="Siera.uml#_OKiVUpYpEeuzkNY6l90EhQ"/>
+        <type xmi:id="_dgQiN5YpEeuzkNY6l90EhQ" name="VideoCard">
+          <modelElement href="Siera.uml#_NwdocJYpEeuzkNY6l90EhQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dgQiOJYpEeuzkNY6l90EhQ" name="brand">
+        <modelElement href="Siera.uml#_OKhHMZYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dgQiOZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dgQiOpYpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dgQiO5YpEeuzkNY6l90EhQ" name="model">
+        <modelElement href="Siera.uml#_OKhuQJYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dgQiPJYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dgQiPZYpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dgQiPpYpEeuzkNY6l90EhQ" name="frequency">
+        <modelElement href="Siera.uml#_OKhuQZYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dgQiP5YpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dgQiQJYpEeuzkNY6l90EhQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dgQiQZYpEeuzkNY6l90EhQ" name="memory">
+        <modelElement href="Siera.uml#_OKhuQpYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dgQiQpYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dgQiQ5YpEeuzkNY6l90EhQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dgQiRJYpEeuzkNY6l90EhQ" name="price">
+        <modelElement href="Siera.uml#_OKhuQ5YpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dgQiRZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dgQiRpYpEeuzkNY6l90EhQ" name="Double">
+          <modelElement href="Siera.uml#_OJP74JYpEeuzkNY6l90EhQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dfnB4JYpEeuzkNY6l90EhQ" name="Memory" generalizations="_dfjXgJYpEeuzkNY6l90EhQ">
+    <modelElement href="Siera.uml#_Nu4UEJYpEeuzkNY6l90EhQ"/>
+    <visualProperties xmi:id="_dfnB4ZYpEeuzkNY6l90EhQ" position="338.0,75.0" size="625.0,121.0"/>
+    <visibility xmi:id="_dfnB4pYpEeuzkNY6l90EhQ" label="+"/>
+    <attributes xmi:id="_dfnB45YpEeuzkNY6l90EhQ" name="memory">
+      <modelElement href="Siera.uml#_OLewgJYpEeuzkNY6l90EhQ"/>
+      <visibility xmi:id="_dfnB5JYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dfnB5ZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_dfnB5pYpEeuzkNY6l90EhQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dfnB55YpEeuzkNY6l90EhQ" name="frequency">
+      <modelElement href="Siera.uml#_OLf-oJYpEeuzkNY6l90EhQ"/>
+      <visibility xmi:id="_dfnB6JYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dfnB6ZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_dfnB6pYpEeuzkNY6l90EhQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dfnB65YpEeuzkNY6l90EhQ" name="toString">
+      <modelElement href="Siera.uml#_Nu8lgJYpEeuzkNY6l90EhQ"/>
+      <stereotypes xmi:id="_dfnB7JYpEeuzkNY6l90EhQ" name="LegacyStyledElement">
+        <modelElement href="Siera.uml#_Nu_BwJYpEeuzkNY6l90EhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dfnB7ZYpEeuzkNY6l90EhQ" name="Annotations">
+        <modelElement href="Siera.uml#_NvA28JYpEeuzkNY6l90EhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_dfnB7pYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dfnB75YpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dfnB8JYpEeuzkNY6l90EhQ">
+        <modelElement href="Siera.uml#_Nu-asJYpEeuzkNY6l90EhQ"/>
+        <type xmi:id="_dfnB8ZYpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dfnB8pYpEeuzkNY6l90EhQ" name="Memory">
+      <modelElement href="Siera.uml#_OJelYJYpEeuzkNY6l90EhQ"/>
+      <keywords xmi:id="_dfnB85YpEeuzkNY6l90EhQ" keyword="create"/>
+      <visibility xmi:id="_dfnB9JYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dfnB9ZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dfnB9pYpEeuzkNY6l90EhQ">
+        <modelElement href="Siera.uml#_OJhosJYpEeuzkNY6l90EhQ"/>
+        <type xmi:id="_dfnB95YpEeuzkNY6l90EhQ" name="Memory">
+          <modelElement href="Siera.uml#_Nu4UEJYpEeuzkNY6l90EhQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dfnB-JYpEeuzkNY6l90EhQ" name="brand">
+        <modelElement href="Siera.uml#_OJelYZYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dfnB-ZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dfnB-pYpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dfnB-5YpEeuzkNY6l90EhQ" name="model">
+        <modelElement href="Siera.uml#_OJfMcJYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dfnB_JYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dfnB_ZYpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dfnB_pYpEeuzkNY6l90EhQ" name="memory">
+        <modelElement href="Siera.uml#_OJfMcZYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dfnB_5YpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dfnCAJYpEeuzkNY6l90EhQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dfnCAZYpEeuzkNY6l90EhQ" name="frequency">
+        <modelElement href="Siera.uml#_OJfzgJYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dfnCApYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dfnCA5YpEeuzkNY6l90EhQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dfnCBJYpEeuzkNY6l90EhQ" name="price">
+        <modelElement href="Siera.uml#_OJgakJYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dfnCBZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dfnCBpYpEeuzkNY6l90EhQ" name="Double">
+          <modelElement href="Siera.uml#_OJP74JYpEeuzkNY6l90EhQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dgCfsJYpEeuzkNY6l90EhQ" name="Processor" generalizations="_df7yAJYpEeuzkNY6l90EhQ">
+    <modelElement href="Siera.uml#_Nv9SIJYpEeuzkNY6l90EhQ"/>
+    <visualProperties xmi:id="_dgCfsZYpEeuzkNY6l90EhQ" position="183.0,512.0" size="766.0,161.0"/>
+    <visibility xmi:id="_dgCfspYpEeuzkNY6l90EhQ" label="+"/>
+    <attributes xmi:id="_dgCfs5YpEeuzkNY6l90EhQ" name="socket">
+      <modelElement href="Siera.uml#_OLn6cJYpEeuzkNY6l90EhQ"/>
+      <visibility xmi:id="_dgCftJYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dgCftZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_dgCftpYpEeuzkNY6l90EhQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dgCft5YpEeuzkNY6l90EhQ" name="frequency">
+      <modelElement href="Siera.uml#_OLpvoJYpEeuzkNY6l90EhQ"/>
+      <visibility xmi:id="_dgCfuJYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dgCfuZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_dgCfupYpEeuzkNY6l90EhQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dgCfu5YpEeuzkNY6l90EhQ" name="manyCore">
+      <modelElement href="Siera.uml#_OLqWsJYpEeuzkNY6l90EhQ"/>
+      <visibility xmi:id="_dgCfvJYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dgCfvZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_dgCfvpYpEeuzkNY6l90EhQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dgCfv5YpEeuzkNY6l90EhQ" name="cache">
+      <modelElement href="Siera.uml#_OLq9wJYpEeuzkNY6l90EhQ"/>
+      <visibility xmi:id="_dgCfwJYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dgCfwZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_dgCfwpYpEeuzkNY6l90EhQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dgCfw5YpEeuzkNY6l90EhQ" name="toString">
+      <modelElement href="Siera.uml#_Nv-gQJYpEeuzkNY6l90EhQ"/>
+      <stereotypes xmi:id="_dgCfxJYpEeuzkNY6l90EhQ" name="LegacyStyledElement">
+        <modelElement href="Siera.uml#_NwAVcJYpEeuzkNY6l90EhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dgCfxZYpEeuzkNY6l90EhQ" name="Annotations">
+        <modelElement href="Siera.uml#_NwTQYJYpEeuzkNY6l90EhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_dgCfxpYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dgCfx5YpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dgCfyJYpEeuzkNY6l90EhQ">
+        <modelElement href="Siera.uml#_Nv_HUJYpEeuzkNY6l90EhQ"/>
+        <type xmi:id="_dgCfyZYpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dgCfypYpEeuzkNY6l90EhQ" name="Processor">
+      <modelElement href="Siera.uml#_OKPaYJYpEeuzkNY6l90EhQ"/>
+      <keywords xmi:id="_dgCfy5YpEeuzkNY6l90EhQ" keyword="create"/>
+      <visibility xmi:id="_dgCfzJYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dgCfzZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dgCfzpYpEeuzkNY6l90EhQ">
+        <modelElement href="Siera.uml#_OKcOspYpEeuzkNY6l90EhQ"/>
+        <type xmi:id="_dgCfz5YpEeuzkNY6l90EhQ" name="Processor">
+          <modelElement href="Siera.uml#_Nv9SIJYpEeuzkNY6l90EhQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dgCf0JYpEeuzkNY6l90EhQ" name="brand">
+        <modelElement href="Siera.uml#_OKQogJYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dgCf0ZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dgCf0pYpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dgCf05YpEeuzkNY6l90EhQ" name="model">
+        <modelElement href="Siera.uml#_OKRPkJYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dgCf1JYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dgCf1ZYpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dgCf1pYpEeuzkNY6l90EhQ" name="socket">
+        <modelElement href="Siera.uml#_OKTEwJYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dgCf15YpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dgCf2JYpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dgCf2ZYpEeuzkNY6l90EhQ" name="frequency">
+        <modelElement href="Siera.uml#_OKTEwZYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dgCf2pYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dgCf25YpEeuzkNY6l90EhQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dgCf3JYpEeuzkNY6l90EhQ" name="manyCore">
+        <modelElement href="Siera.uml#_OKbAkJYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dgCf3ZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dgCf3pYpEeuzkNY6l90EhQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dgCf35YpEeuzkNY6l90EhQ" name="cache">
+        <modelElement href="Siera.uml#_OKbnoJYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dgCf4JYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dgCf4ZYpEeuzkNY6l90EhQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dgCf4pYpEeuzkNY6l90EhQ" name="price">
+        <modelElement href="Siera.uml#_OKbnoZYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dgCf45YpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dgCf5JYpEeuzkNY6l90EhQ" name="Double">
+          <modelElement href="Siera.uml#_OJP74JYpEeuzkNY6l90EhQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dfa0oJYpEeuzkNY6l90EhQ" name="Accessories" subclassedBy="_dfjXgJYpEeuzkNY6l90EhQ _dfuWoJYpEeuzkNY6l90EhQ _df7yAJYpEeuzkNY6l90EhQ _dgLpoJYpEeuzkNY6l90EhQ">
+    <modelElement href="Siera.uml#_NuoccJYpEeuzkNY6l90EhQ"/>
+    <visualProperties xmi:id="_dfa0oZYpEeuzkNY6l90EhQ" position="66.0,-193.0" size="227.0,218.0"/>
+    <visibility xmi:id="_dfa0opYpEeuzkNY6l90EhQ" label="+"/>
+    <attributes xmi:id="_dfa0o5YpEeuzkNY6l90EhQ" name="brand">
+      <modelElement href="Siera.uml#_OKpqEJYpEeuzkNY6l90EhQ"/>
+      <stereotypes xmi:id="_dfa0pJYpEeuzkNY6l90EhQ" name="LegacyStyledElement">
+        <modelElement href="Siera.uml#_OKsGUJYpEeuzkNY6l90EhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_dfa0pZYpEeuzkNY6l90EhQ" label="#"/>
+      <cardinality xmi:id="_dfa0ppYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_dfa0p5YpEeuzkNY6l90EhQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dfa0qJYpEeuzkNY6l90EhQ" name="model">
+      <modelElement href="Siera.uml#_OKstYJYpEeuzkNY6l90EhQ"/>
+      <stereotypes xmi:id="_dfa0qZYpEeuzkNY6l90EhQ" name="LegacyStyledElement">
+        <modelElement href="Siera.uml#_OLcUQJYpEeuzkNY6l90EhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_dfa0qpYpEeuzkNY6l90EhQ" label="#"/>
+      <cardinality xmi:id="_dfa0q5YpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_dfa0rJYpEeuzkNY6l90EhQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dfa0rZYpEeuzkNY6l90EhQ" name="price">
+      <modelElement href="Siera.uml#_OLcUQZYpEeuzkNY6l90EhQ"/>
+      <stereotypes xmi:id="_dfa0rpYpEeuzkNY6l90EhQ" name="LegacyStyledElement">
+        <modelElement href="Siera.uml#_OLeJcJYpEeuzkNY6l90EhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_dfa0r5YpEeuzkNY6l90EhQ" label="#"/>
+      <cardinality xmi:id="_dfa0sJYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_dfa0sZYpEeuzkNY6l90EhQ" name="Double">
+        <modelElement href="Siera.uml#_OJP74JYpEeuzkNY6l90EhQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dfa0spYpEeuzkNY6l90EhQ" name="getBrand">
+      <modelElement href="Siera.uml#_NurfwJYpEeuzkNY6l90EhQ"/>
+      <visibility xmi:id="_dfa0s5YpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dfa0tJYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dfa0tZYpEeuzkNY6l90EhQ">
+        <modelElement href="Siera.uml#_NusG0JYpEeuzkNY6l90EhQ"/>
+        <type xmi:id="_dfa0tpYpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dfa0t5YpEeuzkNY6l90EhQ" name="setBrand">
+      <modelElement href="Siera.uml#_NusG0ZYpEeuzkNY6l90EhQ"/>
+      <visibility xmi:id="_dfa0uJYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dfa0uZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dfa0upYpEeuzkNY6l90EhQ" name="brand">
+        <modelElement href="Siera.uml#_Nust4JYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dfa0u5YpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dfa0vJYpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dfa0vZYpEeuzkNY6l90EhQ" name="getModel">
+      <modelElement href="Siera.uml#_NutU8JYpEeuzkNY6l90EhQ"/>
+      <visibility xmi:id="_dfa0vpYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dfa0v5YpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dfa0wJYpEeuzkNY6l90EhQ">
+        <modelElement href="Siera.uml#_Nut8AJYpEeuzkNY6l90EhQ"/>
+        <type xmi:id="_dfa0wZYpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dfa0wpYpEeuzkNY6l90EhQ" name="setModel">
+      <modelElement href="Siera.uml#_NuvKIJYpEeuzkNY6l90EhQ"/>
+      <visibility xmi:id="_dfa0w5YpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dfa0xJYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dfa0xZYpEeuzkNY6l90EhQ" name="model">
+        <modelElement href="Siera.uml#_NuwYQJYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dfa0xpYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dfa0x5YpEeuzkNY6l90EhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dfa0yJYpEeuzkNY6l90EhQ" name="getPrice">
+      <modelElement href="Siera.uml#_Nuw_UJYpEeuzkNY6l90EhQ"/>
+      <visibility xmi:id="_dfa0yZYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dfa0ypYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dfa0y5YpEeuzkNY6l90EhQ">
+        <modelElement href="Siera.uml#_OJaT8JYpEeuzkNY6l90EhQ"/>
+        <type xmi:id="_dfa0zJYpEeuzkNY6l90EhQ" name="Double">
+          <modelElement href="Siera.uml#_OJP74JYpEeuzkNY6l90EhQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dfa0zZYpEeuzkNY6l90EhQ" name="setPrice">
+      <modelElement href="Siera.uml#_OJbiEJYpEeuzkNY6l90EhQ"/>
+      <visibility xmi:id="_dfa0zpYpEeuzkNY6l90EhQ" label="+"/>
+      <cardinality xmi:id="_dfa0z5YpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dfa00JYpEeuzkNY6l90EhQ" name="price">
+        <modelElement href="Siera.uml#_OJbiEZYpEeuzkNY6l90EhQ"/>
+        <cardinality xmi:id="_dfa00ZYpEeuzkNY6l90EhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_dfa00pYpEeuzkNY6l90EhQ" name="Double">
+          <modelElement href="Siera.uml#_OJP74JYpEeuzkNY6l90EhQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
